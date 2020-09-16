@@ -1,0 +1,435 @@
+@media screen and (min-width: 300px) and (max-width: 768px) {
+
+    /*описание Header*/
+    .container {
+        width: 100%;
+    }
+
+    .mini {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0 20px 0;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item,
+    .menu__item {
+        margin-top: 10px;
+    }
+
+    /*описание About*/
+    .about__title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__title__one {
+        align-self: center;
+        margin-bottom: 20px;
+    }
+
+    .story {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .circle__lump {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-self: center;
+
+    }
+
+    .photo {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ipad {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .iphone {
+        width: 50%;
+        align-self: center;
+    }
+
+    .skills__progress {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our__skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our__skills__main {
+        text-align: center;
+        width: 100%;
+    }
+
+    .our__story__text {
+        width: 400px;
+    }
+
+    .our__story {
+        width: 100%;
+        text-align: center;
+    }
+
+    /*team*/
+    .team__main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team__main__title {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .team__developer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team__developer__text {
+        width: 100%;
+    }
+
+    /*service*/
+    .service {
+        background: none;
+    }
+
+    .service__circle {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service__circle__one {
+        margin: 0 auto;
+        background: url(/img/bg2.png) no-repeat center top;
+        padding-bottom: 30px;
+    }
+
+    .service__design {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service__design__one {
+        width: 100%;
+    }
+
+    .price {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .packege__price {
+        margin: 0 auto;
+    }
+
+    .price__metal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price__basic {
+        width: 100%;
+    }
+
+    /*Portfolio*/
+    .portfolio__photo {
+        width: 100%;
+    }
+
+    .portfolio__photo a {
+        display: none;
+    }
+
+    .portfolio__circle {
+        display: none;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .menu__two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item__nav {
+        padding: 10px;
+    }
+
+    .portfolio__project__file {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project__file__one {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    /*Blog*/
+    .twitter__blog__post {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .twitter__blog__post__one {
+        width: 100%;
+    }
+
+    .post__awesome {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post__camera {
+        width: 100%;
+    }
+
+    .post__title {
+        width: 100%;
+    }
+
+    /*Contact*/
+    .contact__menu {
+        display: flex;
+        flex-direction: column;
+        margin-top: 58px;
+    }
+
+    .contact__item {
+        background: url(/img/bg2.png);
+        margin: 20px auto;
+    }
+
+    .contact__drop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form__input,
+    .form__input__text {
+        width: 100%;
+    }
+
+    .contact__info {
+        margin-top: 50px;
+    }
+
+    /*footer*/
+    .copy__social {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .copy {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    /*описание Header*/
+    .container {
+        width: 100%;
+    }
+
+    .mini {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        padding-bottom: 0px;
+    }
+
+    .about__title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__title__one {
+        align-self: center;
+        margin-bottom: 20px;
+    }
+
+    .story {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .circle__lump {
+        margin-bottom: 20px;
+
+    }
+
+    .photo {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ipad {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .iphone {
+        width: 50%;
+        align-self: center;
+        display: none;
+    }
+
+    .skills__progress {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our__skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our__story__text {
+        width: 100%;
+    }
+
+    .team__developer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team__developer__text {
+        width: 100%;
+    }
+
+    /*portfolio*/
+    .portfolio__photo {
+        width: 100%;
+    }
+
+    .portfolio__photo a {
+        display: none;
+    }
+
+    .portfolio__circle {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    /*описание Header*/
+    .container {
+        width: 100%;
+    }
+
+    .mini {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .menu {
+        margin-top: 40px;
+    }
+
+    .our__skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .our__story__text {
+        width: 90%;
+    }
+
+    .ipad {
+        width: 70%;
+    }
+
+    .mobile {
+        margin-right: 50px;
+    }
+
+    /*portfolio*/
+    .portfolio__photo {
+        width: 100%;
+    }
+
+    .portfolio__photo a {
+        display: none;
+    }
+
+    .portfolio__circle {
+        display: none;
+    }
+
+    .portfolio__project__file {
+        width: 100%;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    /*blog*/
+    .twitter__blog__post__one {
+        width: 100%;
+
+    }
+
+    .post__awesome {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post__camera {
+        width: 100%;
+    }
+
+    .post__title {
+        width: 100%;
+    }
+
+}
